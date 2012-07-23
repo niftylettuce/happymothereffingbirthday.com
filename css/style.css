@@ -1,0 +1,136 @@
+/* =============================================================================
+   HTML5 Boilerplate CSS: h5bp.com/css
+   ========================================================================== */
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+html { height: auto; min-height: 100%; width: 100%;}
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+/* ===== Primary Styles ========================================================
+   ========================================================================== */
+
+@font-face {
+  font-family: 'HamburgerHeavenRegular';
+  src: url('../HAMBH___-webfont.eot');
+  src: url('../HAMBH___-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../HAMBH___-webfont.woff') format('woff'),
+       url('../HAMBH___-webfont.ttf') format('truetype'),
+       url('../HAMBH___-webfont.svg#HamburgerHeavenRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#img {
+  display: none;
+}
+
+html {
+  background-color: #fe57a1;
+  background-image: -webkit-gradient(radial, center center, 0, center center, 460, from(rgba(255,255,255,0.5)), to(transparent));
+  background-image: -webkit-radial-gradient(circle, rgba(255,255,255,0.5), transparent);
+  background-image: -moz-radial-gradient(circle, rgba(255,255,255,0.5), transparent);
+  background-image: -ms-radial-gradient(circle, rgba(255,255,255,0.5), transparent);
+  background-image: -o-radial-gradient(circle, rgba(255,255,255,0.5), transparent);
+  background-repeat: no-repeat;
+  -webkit-animation: happyMotherEffingBirthday 3s infinite;
+  animation: happyMotherEffingBirthday 3s infinite;
+  -moz-animation: happyMotherEffingBirthday 3s infinite;
+  -o-animation: happyMotherEffingBirthday 3s infinite;
+}
+
+#happy-mother-effing-birthday {
+  color: #fff;
+  word-wrap: break-word;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-family: 'HamburgerHeavenRegular';
+  font-size: 4em;
+  letter-spacing: 0.25em;
+  line-height: 1.25;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke: 1px rgba(0,0,0,0.75);
+  text-shadow: 0 3px 0 rgba(0,0,0,0.15), 3px 3px rgba(0,0,0,0.15);
+}
+
+@keyframes happyMotherEffingBirthday {
+  0% {
+    background-color: #fe57a1;
+  }
+  25% {
+    background-color: #8c57fe;
+  }
+  50% {
+    background-color: #57fe6f;
+  }
+  75% {
+    background-color: #fefe57;
+  }
+  100% {
+    background-color: #fe57a1;
+  }
+}
+
+@-moz-keyframes happyMotherEffingBirthday {
+  0% {
+    background-color: #fe57a1;
+  }
+  25% {
+    background-color: #8c57fe;
+  }
+  50% {
+    background-color: #57fe6f;
+  }
+  75% {
+    background-color: #fefe57;
+  }
+  100% {
+    background-color: #fe57a1;
+  }
+}
+
+@-o-keyframes happyMotherEffingBirthday {
+  0% {
+    background-color: #fe57a1;
+  }
+  25% {
+    background-color: #8c57fe;
+  }
+  50% {
+    background-color: #57fe6f;
+  }
+  75% {
+    background-color: #fefe57;
+  }
+  100% {
+    background-color: #fe57a1;
+  }
+}
+
+@-webkit-keyframes happyMotherEffingBirthday {
+  0% {
+    background-color: #fe57a1;
+  }
+  25% {
+    background-color: #8c57fe;
+  }
+  50% {
+    background-color: #57fe6f;
+  }
+  75% {
+    background-color: #fefe57;
+  }
+  100% {
+    background-color: #fe57a1;
+  }
+}

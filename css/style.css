@@ -40,6 +40,13 @@ html {
   animation: happyMotherEffingBirthday 3s infinite;
   -moz-animation: happyMotherEffingBirthday 3s infinite;
   -o-animation: happyMotherEffingBirthday 3s infinite;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	-ms-transform: translateZ(0);
 }
 
 #happy-mother-effing-birthday {
